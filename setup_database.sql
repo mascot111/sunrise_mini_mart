@@ -1,13 +1,6 @@
 -- Sunrise Mini Mart Demo Site Database
 -- Compatible with XAMPP MariaDB 10.4+ and MySQL 8.0+
 
-DROP DATABASE IF EXISTS sunrise_mini_mart_db;
-CREATE DATABASE sunrise_mini_mart_db
-    CHARACTER SET utf8mb4
-    COLLATE utf8mb4_unicode_ci;
-
-USE sunrise_mini_mart_db;
-
 CREATE TABLE customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     full_name VARCHAR(100) NOT NULL,
