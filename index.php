@@ -649,6 +649,14 @@ $nav = [
     'purchases' => ['label' => 'Purchases', 'icon' => '⇄'],
     'reports' => ['label' => 'Reports', 'icon' => '▣'],
 ];
+$nav = [
+    'dashboard' => ['label' => 'Dashboard', 'icon' => 'D'],
+    'products' => ['label' => 'Products', 'icon' => 'P'],
+    'customers' => ['label' => 'Customers', 'icon' => 'C'],
+    'sales' => ['label' => 'Sales', 'icon' => 'S'],
+    'purchases' => ['label' => 'Purchases', 'icon' => 'B'],
+    'reports' => ['label' => 'Reports', 'icon' => 'R'],
+];
 ?>
 <!doctype html>
 <html lang="en">
